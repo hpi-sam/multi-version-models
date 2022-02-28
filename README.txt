@@ -1,6 +1,7 @@
 Installation:
 - download and install Eclipse Modeling Tools (e.g. via the Eclipse installer from https://www.eclipse.org/downloads/)
 - add the Eclipse Neon update-site (http://download.eclipse.org/releases/neon/) to the list of registered update-sites
+- from the eclipse release update site, install the "MoDisco SDK" feature under the "Modeling" category
 - install SDM-related Eclipse-Plugins (required for reading query specifications , i.e., .mlsp-files) from our update-site: https://www.hpi.uni-potsdam.de/giese/update-site/ ("SDM Metamodels, Editors, and Interpreters" category)
 
 Experiments:
