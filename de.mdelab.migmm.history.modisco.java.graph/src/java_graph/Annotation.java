@@ -1,0 +1,49 @@
+/**
+ */
+package java_graph;
+
+import org.eclipse.emf.common.util.EList;
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Annotation</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link java_graph.Annotation#getType <em>Type</em>}</li>
+ *   <li>{@link java_graph.Annotation#getValues <em>Values</em>}</li>
+ * </ul>
+ *
+ * @see java_graph.Java_graphPackage#getAnnotation()
+ * @model
+ * @generated
+ */
+public interface Annotation extends Expression {
+	/**
+	 * Returns the value of the '<em><b>Type</b></em>' reference list.
+	 * The list contents are of type {@link java_graph.TypeAccess}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Type</em>' reference list.
+	 * @see java_graph.Java_graphPackage#getAnnotation_Type()
+	 * @model required="true" ordered="false"
+	 * @generated
+	 */
+	EList<TypeAccess> getType();
+
+	/**
+	 * Returns the value of the '<em><b>Values</b></em>' reference list.
+	 * The list contents are of type {@link java_graph.AnnotationMemberValuePair}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Values</em>' reference list.
+	 * @see java_graph.Java_graphPackage#getAnnotation_Values()
+	 * @model
+	 * @generated
+	 */
+	EList<AnnotationMemberValuePair> getValues();
+
+} // Annotation

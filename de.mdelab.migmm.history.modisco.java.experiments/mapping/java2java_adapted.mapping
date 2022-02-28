@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mapping:MappingRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mapping="http://www.mdelab.de/migmm/mapping/1.0">
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodDeclaration/body"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodDeclaration_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodDeclaration/parameters"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodDeclaration_adapted_parametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodDeclaration/thrownExceptions"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodDeclaration_adapted_thrownExceptionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodDeclaration/typeParameters"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodDeclaration_adapted_typeParametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodDeclaration/usagesInDocComments"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesInDocCommentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodDeclaration/usages"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodDeclaration_adapted_usagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodInvocation"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodInvocation/method"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodInvocation_adapted_methodItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodInvocation/arguments"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodInvocation_adapted_argumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractMethodInvocation/typeArguments"/>
+    <target href="mapping/java_adapted.ecore#//AbstractMethodInvocation_adapted_typeArgumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeDeclaration/bodyDeclarations"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeDeclaration_adapted_bodyDeclarationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeDeclaration/commentsBeforeBody"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsBeforeBodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeDeclaration/commentsAfterBody"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeDeclaration_adapted_commentsAfterBodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeDeclaration/package"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeDeclaration_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeDeclaration/superInterfaces"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeDeclaration_adapted_superInterfacesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeQualifiedExpression"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractTypeQualifiedExpression/qualifier"/>
+    <target href="mapping/java_adapted.ecore#//AbstractTypeQualifiedExpression_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractVariablesContainer"/>
+    <target href="mapping/java_adapted.ecore#//AbstractVariablesContainer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractVariablesContainer/type"/>
+    <target href="mapping/java_adapted.ecore#//AbstractVariablesContainer_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AbstractVariablesContainer/fragments"/>
+    <target href="mapping/java_adapted.ecore#//AbstractVariablesContainer_adapted_fragmentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Annotation"/>
+    <target href="mapping/java_adapted.ecore#//Annotation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Annotation/type"/>
+    <target href="mapping/java_adapted.ecore#//Annotation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Annotation/values"/>
+    <target href="mapping/java_adapted.ecore#//Annotation_adapted_valuesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Archive"/>
+    <target href="mapping/java_adapted.ecore#//Archive_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Archive/originalFilePath"/>
+    <target href="mapping/java_adapted.ecore#//Archive_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Archive/classFiles"/>
+    <target href="mapping/java_adapted.ecore#//Archive_adapted_classFilesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Archive/manifest"/>
+    <target href="mapping/java_adapted.ecore#//Archive_adapted_manifestItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AssertStatement"/>
+    <target href="mapping/java_adapted.ecore#//AssertStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AssertStatement/message"/>
+    <target href="mapping/java_adapted.ecore#//AssertStatement_adapted_messageItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AssertStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//AssertStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ASTNode"/>
+    <target href="mapping/java_adapted.ecore#//ASTNode_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ASTNode/comments"/>
+    <target href="mapping/java_adapted.ecore#//ASTNode_adapted_commentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ASTNode/originalCompilationUnit"/>
+    <target href="mapping/java_adapted.ecore#//ASTNode_adapted_originalCompilationUnitItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ASTNode/originalClassFile"/>
+    <target href="mapping/java_adapted.ecore#//ASTNode_adapted_originalClassFileItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationMemberValuePair"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationMemberValuePair_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationMemberValuePair/member"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationMemberValuePair_adapted_memberItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationMemberValuePair/value"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationMemberValuePair_adapted_valueItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationTypeDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationTypeMemberDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationTypeMemberDeclaration/default"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_defaultItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationTypeMemberDeclaration/type"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnnotationTypeMemberDeclaration/usages"/>
+    <target href="mapping/java_adapted.ecore#//AnnotationTypeMemberDeclaration_adapted_usagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnonymousClassDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//AnonymousClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnonymousClassDeclaration/bodyDeclarations"/>
+    <target href="mapping/java_adapted.ecore#//AnonymousClassDeclaration_adapted_bodyDeclarationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//AnonymousClassDeclaration/classInstanceCreation"/>
+    <target href="mapping/java_adapted.ecore#//AnonymousClassDeclaration_adapted_classInstanceCreationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayAccess"/>
+    <target href="mapping/java_adapted.ecore#//ArrayAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayAccess/array"/>
+    <target href="mapping/java_adapted.ecore#//ArrayAccess_adapted_arrayItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayAccess/index"/>
+    <target href="mapping/java_adapted.ecore#//ArrayAccess_adapted_indexItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayCreation"/>
+    <target href="mapping/java_adapted.ecore#//ArrayCreation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayCreation/dimensions"/>
+    <target href="mapping/java_adapted.ecore#//ArrayCreation_adapted_dimensionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayCreation/initializer"/>
+    <target href="mapping/java_adapted.ecore#//ArrayCreation_adapted_initializerItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayCreation/type"/>
+    <target href="mapping/java_adapted.ecore#//ArrayCreation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayInitializer"/>
+    <target href="mapping/java_adapted.ecore#//ArrayInitializer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayInitializer/expressions"/>
+    <target href="mapping/java_adapted.ecore#//ArrayInitializer_adapted_expressionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayLengthAccess"/>
+    <target href="mapping/java_adapted.ecore#//ArrayLengthAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayLengthAccess/array"/>
+    <target href="mapping/java_adapted.ecore#//ArrayLengthAccess_adapted_arrayItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayType"/>
+    <target href="mapping/java_adapted.ecore#//ArrayType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayType/dimensions"/>
+    <target href="mapping/java_adapted.ecore#//ArrayType_adapted_dimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ArrayType/elementType"/>
+    <target href="mapping/java_adapted.ecore#//ArrayType_adapted_elementTypeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Assignment"/>
+    <target href="mapping/java_adapted.ecore#//Assignment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Assignment/leftHandSide"/>
+    <target href="mapping/java_adapted.ecore#//Assignment_adapted_leftHandSideItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Assignment/operator"/>
+    <target href="mapping/java_adapted.ecore#//Assignment_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Assignment/rightHandSide"/>
+    <target href="mapping/java_adapted.ecore#//Assignment_adapted_rightHandSideItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BodyDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//BodyDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BodyDeclaration/abstractTypeDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//BodyDeclaration_adapted_abstractTypeDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BodyDeclaration/annotations"/>
+    <target href="mapping/java_adapted.ecore#//BodyDeclaration_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BodyDeclaration/anonymousClassDeclarationOwner"/>
+    <target href="mapping/java_adapted.ecore#//BodyDeclaration_adapted_anonymousClassDeclarationOwnerItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BodyDeclaration/modifier"/>
+    <target href="mapping/java_adapted.ecore#//BodyDeclaration_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BooleanLiteral"/>
+    <target href="mapping/java_adapted.ecore#//BooleanLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BooleanLiteral/value"/>
+    <target href="mapping/java_adapted.ecore#//BooleanLiteral_adapted_valueValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BlockComment"/>
+    <target href="mapping/java_adapted.ecore#//BlockComment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Block"/>
+    <target href="mapping/java_adapted.ecore#//Block_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Block/statements"/>
+    <target href="mapping/java_adapted.ecore#//Block_adapted_statementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BreakStatement"/>
+    <target href="mapping/java_adapted.ecore#//BreakStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//BreakStatement/label"/>
+    <target href="mapping/java_adapted.ecore#//BreakStatement_adapted_labelItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CastExpression"/>
+    <target href="mapping/java_adapted.ecore#//CastExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CastExpression/expression"/>
+    <target href="mapping/java_adapted.ecore#//CastExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CastExpression/type"/>
+    <target href="mapping/java_adapted.ecore#//CastExpression_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CatchClause"/>
+    <target href="mapping/java_adapted.ecore#//CatchClause_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CatchClause/exception"/>
+    <target href="mapping/java_adapted.ecore#//CatchClause_adapted_exceptionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CatchClause/body"/>
+    <target href="mapping/java_adapted.ecore#//CatchClause_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CharacterLiteral"/>
+    <target href="mapping/java_adapted.ecore#//CharacterLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CharacterLiteral/escapedValue"/>
+    <target href="mapping/java_adapted.ecore#//CharacterLiteral_adapted_escapedValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassFile"/>
+    <target href="mapping/java_adapted.ecore#//ClassFile_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassFile/originalFilePath"/>
+    <target href="mapping/java_adapted.ecore#//ClassFile_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassFile/type"/>
+    <target href="mapping/java_adapted.ecore#//ClassFile_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassFile/attachedSource"/>
+    <target href="mapping/java_adapted.ecore#//ClassFile_adapted_attachedSourceItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassFile/package"/>
+    <target href="mapping/java_adapted.ecore#//ClassFile_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassInstanceCreation"/>
+    <target href="mapping/java_adapted.ecore#//ClassInstanceCreation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassInstanceCreation/anonymousClassDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//ClassInstanceCreation_adapted_anonymousClassDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassInstanceCreation/expression"/>
+    <target href="mapping/java_adapted.ecore#//ClassInstanceCreation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassInstanceCreation/type"/>
+    <target href="mapping/java_adapted.ecore#//ClassInstanceCreation_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ConstructorDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//ConstructorDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ConditionalExpression"/>
+    <target href="mapping/java_adapted.ecore#//ConditionalExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ConditionalExpression/elseExpression"/>
+    <target href="mapping/java_adapted.ecore#//ConditionalExpression_adapted_elseExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ConditionalExpression/expression"/>
+    <target href="mapping/java_adapted.ecore#//ConditionalExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ConditionalExpression/thenExpression"/>
+    <target href="mapping/java_adapted.ecore#//ConditionalExpression_adapted_thenExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ConstructorInvocation"/>
+    <target href="mapping/java_adapted.ecore#//ConstructorInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//ClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ClassDeclaration/superClass"/>
+    <target href="mapping/java_adapted.ecore#//ClassDeclaration_adapted_superClassItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Comment"/>
+    <target href="mapping/java_adapted.ecore#//Comment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Comment/content"/>
+    <target href="mapping/java_adapted.ecore#//Comment_adapted_contentValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Comment/enclosedByParent"/>
+    <target href="mapping/java_adapted.ecore#//Comment_adapted_enclosedByParentValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Comment/prefixOfParent"/>
+    <target href="mapping/java_adapted.ecore#//Comment_adapted_prefixOfParentValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CompilationUnit"/>
+    <target href="mapping/java_adapted.ecore#//CompilationUnit_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CompilationUnit/originalFilePath"/>
+    <target href="mapping/java_adapted.ecore#//CompilationUnit_adapted_originalFilePathValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CompilationUnit/commentList"/>
+    <target href="mapping/java_adapted.ecore#//CompilationUnit_adapted_commentListItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CompilationUnit/imports"/>
+    <target href="mapping/java_adapted.ecore#//CompilationUnit_adapted_importsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CompilationUnit/package"/>
+    <target href="mapping/java_adapted.ecore#//CompilationUnit_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//CompilationUnit/types"/>
+    <target href="mapping/java_adapted.ecore#//CompilationUnit_adapted_typesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ContinueStatement"/>
+    <target href="mapping/java_adapted.ecore#//ContinueStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ContinueStatement/label"/>
+    <target href="mapping/java_adapted.ecore#//ContinueStatement_adapted_labelItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//DoStatement"/>
+    <target href="mapping/java_adapted.ecore#//DoStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//DoStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//DoStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//DoStatement/body"/>
+    <target href="mapping/java_adapted.ecore#//DoStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EmptyStatement"/>
+    <target href="mapping/java_adapted.ecore#//EmptyStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnhancedForStatement"/>
+    <target href="mapping/java_adapted.ecore#//EnhancedForStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnhancedForStatement/body"/>
+    <target href="mapping/java_adapted.ecore#//EnhancedForStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnhancedForStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//EnhancedForStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnhancedForStatement/parameter"/>
+    <target href="mapping/java_adapted.ecore#//EnhancedForStatement_adapted_parameterItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnumConstantDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//EnumConstantDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnumConstantDeclaration/anonymousClassDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//EnumConstantDeclaration_adapted_anonymousClassDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnumConstantDeclaration/arguments"/>
+    <target href="mapping/java_adapted.ecore#//EnumConstantDeclaration_adapted_argumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnumDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//EnumDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//EnumDeclaration/enumConstants"/>
+    <target href="mapping/java_adapted.ecore#//EnumDeclaration_adapted_enumConstantsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Expression"/>
+    <target href="mapping/java_adapted.ecore#//Expression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ExpressionStatement"/>
+    <target href="mapping/java_adapted.ecore#//ExpressionStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ExpressionStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//ExpressionStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//FieldAccess"/>
+    <target href="mapping/java_adapted.ecore#//FieldAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//FieldAccess/field"/>
+    <target href="mapping/java_adapted.ecore#//FieldAccess_adapted_fieldItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//FieldAccess/expression"/>
+    <target href="mapping/java_adapted.ecore#//FieldAccess_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//FieldDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//FieldDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ForStatement"/>
+    <target href="mapping/java_adapted.ecore#//ForStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ForStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//ForStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ForStatement/updaters"/>
+    <target href="mapping/java_adapted.ecore#//ForStatement_adapted_updatersItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ForStatement/initializers"/>
+    <target href="mapping/java_adapted.ecore#//ForStatement_adapted_initializersItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ForStatement/body"/>
+    <target href="mapping/java_adapted.ecore#//ForStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//IfStatement"/>
+    <target href="mapping/java_adapted.ecore#//IfStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//IfStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//IfStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//IfStatement/thenStatement"/>
+    <target href="mapping/java_adapted.ecore#//IfStatement_adapted_thenStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//IfStatement/elseStatement"/>
+    <target href="mapping/java_adapted.ecore#//IfStatement_adapted_elseStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ImportDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//ImportDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ImportDeclaration/static"/>
+    <target href="mapping/java_adapted.ecore#//ImportDeclaration_adapted_staticValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ImportDeclaration/importedElement"/>
+    <target href="mapping/java_adapted.ecore#//ImportDeclaration_adapted_importedElementItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InfixExpression"/>
+    <target href="mapping/java_adapted.ecore#//InfixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InfixExpression/operator"/>
+    <target href="mapping/java_adapted.ecore#//InfixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InfixExpression/rightOperand"/>
+    <target href="mapping/java_adapted.ecore#//InfixExpression_adapted_rightOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InfixExpression/leftOperand"/>
+    <target href="mapping/java_adapted.ecore#//InfixExpression_adapted_leftOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InfixExpression/extendedOperands"/>
+    <target href="mapping/java_adapted.ecore#//InfixExpression_adapted_extendedOperandsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Initializer"/>
+    <target href="mapping/java_adapted.ecore#//Initializer_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Initializer/body"/>
+    <target href="mapping/java_adapted.ecore#//Initializer_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InstanceofExpression"/>
+    <target href="mapping/java_adapted.ecore#//InstanceofExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InstanceofExpression/rightOperand"/>
+    <target href="mapping/java_adapted.ecore#//InstanceofExpression_adapted_rightOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InstanceofExpression/leftOperand"/>
+    <target href="mapping/java_adapted.ecore#//InstanceofExpression_adapted_leftOperandItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//InterfaceDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//InterfaceDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Javadoc"/>
+    <target href="mapping/java_adapted.ecore#//Javadoc_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Javadoc/tags"/>
+    <target href="mapping/java_adapted.ecore#//Javadoc_adapted_tagsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//LabeledStatement"/>
+    <target href="mapping/java_adapted.ecore#//LabeledStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//LabeledStatement/body"/>
+    <target href="mapping/java_adapted.ecore#//LabeledStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//LabeledStatement/usagesInBreakStatements"/>
+    <target href="mapping/java_adapted.ecore#//LabeledStatement_adapted_usagesInBreakStatementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//LabeledStatement/usagesInContinueStatements"/>
+    <target href="mapping/java_adapted.ecore#//LabeledStatement_adapted_usagesInContinueStatementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//LineComment"/>
+    <target href="mapping/java_adapted.ecore#//LineComment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Manifest"/>
+    <target href="mapping/java_adapted.ecore#//Manifest_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Manifest/mainAttributes"/>
+    <target href="mapping/java_adapted.ecore#//Manifest_adapted_mainAttributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Manifest/entryAttributes"/>
+    <target href="mapping/java_adapted.ecore#//Manifest_adapted_entryAttributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ManifestAttribute"/>
+    <target href="mapping/java_adapted.ecore#//ManifestAttribute_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ManifestAttribute/key"/>
+    <target href="mapping/java_adapted.ecore#//ManifestAttribute_adapted_keyValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ManifestAttribute/value"/>
+    <target href="mapping/java_adapted.ecore#//ManifestAttribute_adapted_valueValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ManifestEntry"/>
+    <target href="mapping/java_adapted.ecore#//ManifestEntry_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ManifestEntry/name"/>
+    <target href="mapping/java_adapted.ecore#//ManifestEntry_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ManifestEntry/attributes"/>
+    <target href="mapping/java_adapted.ecore#//ManifestEntry_adapted_attributesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MemberRef"/>
+    <target href="mapping/java_adapted.ecore#//MemberRef_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MemberRef/member"/>
+    <target href="mapping/java_adapted.ecore#//MemberRef_adapted_memberItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MemberRef/qualifier"/>
+    <target href="mapping/java_adapted.ecore#//MemberRef_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//MethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodDeclaration/extraArrayDimensions"/>
+    <target href="mapping/java_adapted.ecore#//MethodDeclaration_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodDeclaration/returnType"/>
+    <target href="mapping/java_adapted.ecore#//MethodDeclaration_adapted_returnTypeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodDeclaration/redefinedMethodDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//MethodDeclaration_adapted_redefinedMethodDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodDeclaration/redefinitions"/>
+    <target href="mapping/java_adapted.ecore#//MethodDeclaration_adapted_redefinitionsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodInvocation"/>
+    <target href="mapping/java_adapted.ecore#//MethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodInvocation/expression"/>
+    <target href="mapping/java_adapted.ecore#//MethodInvocation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRef"/>
+    <target href="mapping/java_adapted.ecore#//MethodRef_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRef/method"/>
+    <target href="mapping/java_adapted.ecore#//MethodRef_adapted_methodItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRef/qualifier"/>
+    <target href="mapping/java_adapted.ecore#//MethodRef_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRef/parameters"/>
+    <target href="mapping/java_adapted.ecore#//MethodRef_adapted_parametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRefParameter"/>
+    <target href="mapping/java_adapted.ecore#//MethodRefParameter_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRefParameter/name"/>
+    <target href="mapping/java_adapted.ecore#//MethodRefParameter_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRefParameter/varargs"/>
+    <target href="mapping/java_adapted.ecore#//MethodRefParameter_adapted_varargsValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//MethodRefParameter/type"/>
+    <target href="mapping/java_adapted.ecore#//MethodRefParameter_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model/name"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model/ownedElements"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted_ownedElementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model/orphanTypes"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted_orphanTypesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model/unresolvedItems"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted_unresolvedItemsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model/compilationUnits"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted_compilationUnitsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model/classFiles"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted_classFilesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Model/archives"/>
+    <target href="mapping/java_adapted.ecore#//Model_adapted_archivesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/visibility"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_visibilityValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/inheritance"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_inheritanceValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/static"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_staticValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/transient"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_transientValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/volatile"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_volatileValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/native"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_nativeValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/strictfp"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_strictfpValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/synchronized"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_synchronizedValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/bodyDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_bodyDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/singleVariableDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_singleVariableDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/variableDeclarationStatement"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_variableDeclarationStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Modifier/variableDeclarationExpression"/>
+    <target href="mapping/java_adapted.ecore#//Modifier_adapted_variableDeclarationExpressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NamedElement"/>
+    <target href="mapping/java_adapted.ecore#//NamedElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NamedElement/name"/>
+    <target href="mapping/java_adapted.ecore#//NamedElement_adapted_nameValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NamedElement/proxy"/>
+    <target href="mapping/java_adapted.ecore#//NamedElement_adapted_proxyValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NamedElement/usagesInImports"/>
+    <target href="mapping/java_adapted.ecore#//NamedElement_adapted_usagesInImportsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NamespaceAccess"/>
+    <target href="mapping/java_adapted.ecore#//NamespaceAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NumberLiteral"/>
+    <target href="mapping/java_adapted.ecore#//NumberLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NumberLiteral/tokenValue"/>
+    <target href="mapping/java_adapted.ecore#//NumberLiteral_adapted_tokenValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//NullLiteral"/>
+    <target href="mapping/java_adapted.ecore#//NullLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Package"/>
+    <target href="mapping/java_adapted.ecore#//Package_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Package/ownedElements"/>
+    <target href="mapping/java_adapted.ecore#//Package_adapted_ownedElementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Package/model"/>
+    <target href="mapping/java_adapted.ecore#//Package_adapted_modelItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Package/ownedPackages"/>
+    <target href="mapping/java_adapted.ecore#//Package_adapted_ownedPackagesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Package/package"/>
+    <target href="mapping/java_adapted.ecore#//Package_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Package/usagesInPackageAccess"/>
+    <target href="mapping/java_adapted.ecore#//Package_adapted_usagesInPackageAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PackageAccess"/>
+    <target href="mapping/java_adapted.ecore#//PackageAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PackageAccess/package"/>
+    <target href="mapping/java_adapted.ecore#//PackageAccess_adapted_packageItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PackageAccess/qualifier"/>
+    <target href="mapping/java_adapted.ecore#//PackageAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ParameterizedType"/>
+    <target href="mapping/java_adapted.ecore#//ParameterizedType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ParameterizedType/type"/>
+    <target href="mapping/java_adapted.ecore#//ParameterizedType_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ParameterizedType/typeArguments"/>
+    <target href="mapping/java_adapted.ecore#//ParameterizedType_adapted_typeArgumentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ParenthesizedExpression"/>
+    <target href="mapping/java_adapted.ecore#//ParenthesizedExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ParenthesizedExpression/expression"/>
+    <target href="mapping/java_adapted.ecore#//ParenthesizedExpression_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PostfixExpression"/>
+    <target href="mapping/java_adapted.ecore#//PostfixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PostfixExpression/operator"/>
+    <target href="mapping/java_adapted.ecore#//PostfixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PostfixExpression/operand"/>
+    <target href="mapping/java_adapted.ecore#//PostfixExpression_adapted_operandItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrefixExpression"/>
+    <target href="mapping/java_adapted.ecore#//PrefixExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrefixExpression/operator"/>
+    <target href="mapping/java_adapted.ecore#//PrefixExpression_adapted_operatorValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrefixExpression/operand"/>
+    <target href="mapping/java_adapted.ecore#//PrefixExpression_adapted_operandItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveType"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeBoolean"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeBoolean_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeByte"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeByte_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeChar"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeChar_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeDouble"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeDouble_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeShort"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeShort_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeFloat"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeFloat_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeInt"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeInt_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeLong"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeLong_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//PrimitiveTypeVoid"/>
+    <target href="mapping/java_adapted.ecore#//PrimitiveTypeVoid_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ReturnStatement"/>
+    <target href="mapping/java_adapted.ecore#//ReturnStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ReturnStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//ReturnStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableAccess"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableAccess/variable"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableAccess_adapted_variableItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableAccess/qualifier"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration/modifier"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration/varargs"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted_varargsValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration/type"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration/annotations"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration/methodDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted_methodDeclarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration/catchClause"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted_catchClauseItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SingleVariableDeclaration/enhancedForStatement"/>
+    <target href="mapping/java_adapted.ecore#//SingleVariableDeclaration_adapted_enhancedForStatementItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Statement"/>
+    <target href="mapping/java_adapted.ecore#//Statement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//StringLiteral"/>
+    <target href="mapping/java_adapted.ecore#//StringLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//StringLiteral/escapedValue"/>
+    <target href="mapping/java_adapted.ecore#//StringLiteral_adapted_escapedValueValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SuperConstructorInvocation"/>
+    <target href="mapping/java_adapted.ecore#//SuperConstructorInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SuperConstructorInvocation/expression"/>
+    <target href="mapping/java_adapted.ecore#//SuperConstructorInvocation_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SuperFieldAccess"/>
+    <target href="mapping/java_adapted.ecore#//SuperFieldAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SuperFieldAccess/field"/>
+    <target href="mapping/java_adapted.ecore#//SuperFieldAccess_adapted_fieldItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SuperMethodInvocation"/>
+    <target href="mapping/java_adapted.ecore#//SuperMethodInvocation_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SwitchCase"/>
+    <target href="mapping/java_adapted.ecore#//SwitchCase_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SwitchCase/default"/>
+    <target href="mapping/java_adapted.ecore#//SwitchCase_adapted_defaultValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SwitchCase/expression"/>
+    <target href="mapping/java_adapted.ecore#//SwitchCase_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SwitchStatement"/>
+    <target href="mapping/java_adapted.ecore#//SwitchStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SwitchStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//SwitchStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SwitchStatement/statements"/>
+    <target href="mapping/java_adapted.ecore#//SwitchStatement_adapted_statementsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SynchronizedStatement"/>
+    <target href="mapping/java_adapted.ecore#//SynchronizedStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SynchronizedStatement/body"/>
+    <target href="mapping/java_adapted.ecore#//SynchronizedStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//SynchronizedStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//SynchronizedStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TagElement"/>
+    <target href="mapping/java_adapted.ecore#//TagElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TagElement/tagName"/>
+    <target href="mapping/java_adapted.ecore#//TagElement_adapted_tagNameValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TagElement/fragments"/>
+    <target href="mapping/java_adapted.ecore#//TagElement_adapted_fragmentsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TextElement"/>
+    <target href="mapping/java_adapted.ecore#//TextElement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TextElement/text"/>
+    <target href="mapping/java_adapted.ecore#//TextElement_adapted_textValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ThisExpression"/>
+    <target href="mapping/java_adapted.ecore#//ThisExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ThrowStatement"/>
+    <target href="mapping/java_adapted.ecore#//ThrowStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//ThrowStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//ThrowStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TryStatement"/>
+    <target href="mapping/java_adapted.ecore#//TryStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TryStatement/body"/>
+    <target href="mapping/java_adapted.ecore#//TryStatement_adapted_bodyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TryStatement/finally"/>
+    <target href="mapping/java_adapted.ecore#//TryStatement_adapted_finallyItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TryStatement/catchClauses"/>
+    <target href="mapping/java_adapted.ecore#//TryStatement_adapted_catchClausesItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Type"/>
+    <target href="mapping/java_adapted.ecore#//Type_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//Type/usagesInTypeAccess"/>
+    <target href="mapping/java_adapted.ecore#//Type_adapted_usagesInTypeAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeAccess"/>
+    <target href="mapping/java_adapted.ecore#//TypeAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeAccess/type"/>
+    <target href="mapping/java_adapted.ecore#//TypeAccess_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeAccess/qualifier"/>
+    <target href="mapping/java_adapted.ecore#//TypeAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//TypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeDeclaration/typeParameters"/>
+    <target href="mapping/java_adapted.ecore#//TypeDeclaration_adapted_typeParametersItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeDeclarationStatement"/>
+    <target href="mapping/java_adapted.ecore#//TypeDeclarationStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeDeclarationStatement/declaration"/>
+    <target href="mapping/java_adapted.ecore#//TypeDeclarationStatement_adapted_declarationItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeLiteral"/>
+    <target href="mapping/java_adapted.ecore#//TypeLiteral_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeLiteral/type"/>
+    <target href="mapping/java_adapted.ecore#//TypeLiteral_adapted_typeItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeParameter"/>
+    <target href="mapping/java_adapted.ecore#//TypeParameter_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//TypeParameter/bounds"/>
+    <target href="mapping/java_adapted.ecore#//TypeParameter_adapted_boundsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedItem"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedItem_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedItemAccess"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedItemAccess_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedItemAccess/element"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedItemAccess_adapted_elementItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedItemAccess/qualifier"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedItemAccess_adapted_qualifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedAnnotationDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedAnnotationDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedAnnotationTypeMemberDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedAnnotationTypeMemberDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedClassDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedClassDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedEnumDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedEnumDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedInterfaceDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedInterfaceDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedLabeledStatement"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedLabeledStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedMethodDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedMethodDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedSingleVariableDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedSingleVariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedType"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedTypeDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedTypeDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//UnresolvedVariableDeclarationFragment"/>
+    <target href="mapping/java_adapted.ecore#//UnresolvedVariableDeclarationFragment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclaration"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclaration_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclaration/extraArrayDimensions"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclaration_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclaration/initializer"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclaration_adapted_initializerItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclaration/usageInVariableAccess"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclaration_adapted_usageInVariableAccessItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationExpression"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationExpression_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationExpression/modifier"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationExpression_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationExpression/annotations"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationExpression_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationFragment"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationFragment_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationFragment/variablesContainer"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationFragment_adapted_variablesContainerItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationStatement"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationStatement/extraArrayDimensions"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationStatement_adapted_extraArrayDimensionsValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationStatement/modifier"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationStatement_adapted_modifierItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//VariableDeclarationStatement/annotations"/>
+    <target href="mapping/java_adapted.ecore#//VariableDeclarationStatement_adapted_annotationsItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//WildCardType"/>
+    <target href="mapping/java_adapted.ecore#//WildCardType_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//WildCardType/upperBound"/>
+    <target href="mapping/java_adapted.ecore#//WildCardType_adapted_upperBoundValue"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//WildCardType/bound"/>
+    <target href="mapping/java_adapted.ecore#//WildCardType_adapted_boundItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//WhileStatement"/>
+    <target href="mapping/java_adapted.ecore#//WhileStatement_adapted"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//WhileStatement/expression"/>
+    <target href="mapping/java_adapted.ecore#//WhileStatement_adapted_expressionItem"/>
+  </mappings>
+  <mappings>
+    <source href="mapping/java.ecore#//WhileStatement/body"/>
+    <target href="mapping/java_adapted.ecore#//WhileStatement_adapted_bodyItem"/>
+  </mappings>
+  <pkg href="mapping/java_adapted.ecore#/"/>
+</mapping:MappingRoot>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlstorypatterns:StoryPattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_Wf1s4JCvEey_9ay1TFWlKg" name="UniqueReturnType">
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_jx-RUJCvEey_9ay1TFWlKg" source="_ZDFFsJCvEey_9ay1TFWlKg" target="_a8EAkJCvEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted/returnType"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_nMtS0JCvEey_9ay1TFWlKg" source="_ZDFFsJCvEey_9ay1TFWlKg" target="_kwcEsJCvEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted/returnType"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_sP4RwJCvEey_9ay1TFWlKg" source="_a8EAkJCvEey_9ay1TFWlKg" target="_pUKHgJCvEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_returnTypeItem/returnType"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_vJva0JCvEey_9ay1TFWlKg" source="_kwcEsJCvEey_9ay1TFWlKg" target="_tqkHEJCvEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_returnTypeItem/returnType"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_zRCAUJCvEey_9ay1TFWlKg" source="_pUKHgJCvEey_9ay1TFWlKg" target="_wJPI8JCvEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted/type"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_2E_8wJCvEey_9ay1TFWlKg" source="_tqkHEJCvEey_9ay1TFWlKg" target="_0t_GgJCvEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted/type"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="__Sr0UJCvEey_9ay1TFWlKg" source="_wJPI8JCvEey_9ay1TFWlKg" target="_8lZusJCvEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted_typeItem/type"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_C3G9UJCwEey_9ay1TFWlKg" source="_0t_GgJCvEey_9ay1TFWlKg" target="_BPLWMJCwEey_9ay1TFWlKg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted_typeItem/type"/>
+  </storyPatternLinks>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_ZDFFsJCvEey_9ay1TFWlKg" name="root" outgoingLinks="_jx-RUJCvEey_9ay1TFWlKg _nMtS0JCvEey_9ay1TFWlKg" bindingType="BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_a8EAkJCvEey_9ay1TFWlKg" name="i1" outgoingLinks="_sP4RwJCvEey_9ay1TFWlKg" incomingLinks="_jx-RUJCvEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_returnTypeItem"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_kwcEsJCvEey_9ay1TFWlKg" name="i2" outgoingLinks="_vJva0JCvEey_9ay1TFWlKg" incomingLinks="_nMtS0JCvEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//MethodDeclaration_adapted_returnTypeItem"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_pUKHgJCvEey_9ay1TFWlKg" name="ta1" outgoingLinks="_zRCAUJCvEey_9ay1TFWlKg" incomingLinks="_sP4RwJCvEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_tqkHEJCvEey_9ay1TFWlKg" name="ta2" outgoingLinks="_2E_8wJCvEey_9ay1TFWlKg" incomingLinks="_vJva0JCvEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_wJPI8JCvEey_9ay1TFWlKg" name="ti1" outgoingLinks="__Sr0UJCvEey_9ay1TFWlKg" incomingLinks="_zRCAUJCvEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted_typeItem"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_0t_GgJCvEey_9ay1TFWlKg" name="ti2" outgoingLinks="_C3G9UJCwEey_9ay1TFWlKg" incomingLinks="_2E_8wJCvEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//TypeAccess_adapted_typeItem"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_8lZusJCvEey_9ay1TFWlKg" name="t1" incomingLinks="__Sr0UJCvEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Type_adapted"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_BPLWMJCwEey_9ay1TFWlKg" name="t2" incomingLinks="_C3G9UJCwEey_9ay1TFWlKg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_adapted#//Type_adapted"/>
+  </storyPatternObjects>
+</mlstorypatterns:StoryPattern>

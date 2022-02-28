@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlstorypatterns:StoryPattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_HLWBQJSjEeyFpbP83LZmUg" name="ConsistentOverride">
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_NQYs4JSjEeyFpbP83LZmUg" source="_JtLr4JSjEeyFpbP83LZmUg" target="_LkytwJSjEeyFpbP83LZmUg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//MethodDeclaration/redefinedMethodDeclaration"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_SvbIcJSjEeyFpbP83LZmUg" source="_LkytwJSjEeyFpbP83LZmUg" target="_Qqy-QJSjEeyFpbP83LZmUg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//MethodDeclaration/returnType"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_VIZK8JSjEeyFpbP83LZmUg" source="_Qqy-QJSjEeyFpbP83LZmUg" target="_TpXoMJSjEeyFpbP83LZmUg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//TypeAccess/type"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_XYNRcJSjEeyFpbP83LZmUg" source="_JtLr4JSjEeyFpbP83LZmUg" target="_VxfyUJSjEeyFpbP83LZmUg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//MethodDeclaration/returnType"/>
+  </storyPatternLinks>
+  <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_aA4j4JSjEeyFpbP83LZmUg" source="_VxfyUJSjEeyFpbP83LZmUg" target="_YgH7wJSjEeyFpbP83LZmUg">
+    <feature xsi:type="ecore:EReference" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//TypeAccess/type"/>
+  </storyPatternLinks>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_JtLr4JSjEeyFpbP83LZmUg" name="root" outgoingLinks="_NQYs4JSjEeyFpbP83LZmUg _XYNRcJSjEeyFpbP83LZmUg" bindingType="BOUND">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//MethodDeclaration"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_LkytwJSjEeyFpbP83LZmUg" name="m" outgoingLinks="_SvbIcJSjEeyFpbP83LZmUg" incomingLinks="_NQYs4JSjEeyFpbP83LZmUg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//MethodDeclaration"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_Qqy-QJSjEeyFpbP83LZmUg" name="mta" outgoingLinks="_VIZK8JSjEeyFpbP83LZmUg" incomingLinks="_SvbIcJSjEeyFpbP83LZmUg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//TypeAccess"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_TpXoMJSjEeyFpbP83LZmUg" name="mt" incomingLinks="_VIZK8JSjEeyFpbP83LZmUg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//Type"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_VxfyUJSjEeyFpbP83LZmUg" name="ta" outgoingLinks="_aA4j4JSjEeyFpbP83LZmUg" incomingLinks="_XYNRcJSjEeyFpbP83LZmUg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//TypeAccess"/>
+  </storyPatternObjects>
+  <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_YgH7wJSjEeyFpbP83LZmUg" name="t" incomingLinks="_aA4j4JSjEeyFpbP83LZmUg">
+    <type xsi:type="ecore:EClass" href="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java_graph#//Type"/>
+  </storyPatternObjects>
+</mlstorypatterns:StoryPattern>
