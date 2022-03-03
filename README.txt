@@ -6,4 +6,5 @@ Installation:
 
 Experiments:
 - experiments can be run via the main methods of the classes in the package de.mdelab.migmm.history.modisco.java.experiments (in the project with the same name)
-- data used for our experiments is available under TODO
+- data used for our experiments is available under de.mdelab.migmm.history.modisco.java.experiments/instances
+	- note that, due to GitHub's file size limit, the larger dataset is split into three parts and has to be unified before it can be read
